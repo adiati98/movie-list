@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
+}
+
+.navbar {
+  background: #2d4059;
+  color: #ff5722;
+  font-family: 'Righteous', cursive;
+  font-size: 3em;
+  text-align: center;
+  padding: 1rem 0;
+}

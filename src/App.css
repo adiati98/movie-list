@@ -6,14 +6,37 @@
 body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  background: #eee;
+  background: #D3C6C6;
+}
+
+.navbar,
+.footer {
+  background: #A99FA5;
+  color: #312C2F;
+  text-align: center;
+  text-shadow: -2px 2px 6px #3F373B;
+  padding: 1rem 0;
 }
 
 .navbar {
-  background: #2d4059;
-  color: #ff5722;
-  font-family: 'Righteous', cursive;
-  font-size: 3em;
-  text-align: center;
-  padding: 1rem 0;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.5em;
+  box-shadow: 0 3px 15px #352E32;
+  letter-spacing: 0.8rem;
+}
+
+.footer {
+  width: 100%;
+  font-weight: 700;
+  font-style: italic;
+  padding: 0.5rem 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 0.2em;
+}
+
+.love-icon {
+  color: #d72323;
 }
